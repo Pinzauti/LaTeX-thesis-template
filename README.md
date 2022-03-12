@@ -58,9 +58,9 @@ It is the file [config.tex](https://github.com/Pinzauti/LaTeX-thesis-template/bl
 - [biblatex](https://ctan.org/pkg/biblatex): bibliography.
 - [graphicx](https://ctan.org/pkg/graphicx): for handling images.
 - [mathtools](https://ctan.org/pkg/mathtools): provides many useful tools for mathematical typesetting.
-- [amssymb](https://ctan.org/pkg/amsfonts?lang=en): provides some mathematical symbols.
-- [amsthm](https://ctan.org/pkg/amsthm?lang=en): for theorems setup.
-- [epigraph](https://ctan.org/pkg/epigraph?lang=en): for adding quotes at the beginning of the chapters.
+- [amssymb](https://ctan.org/pkg/amsfonts): provides some mathematical symbols.
+- [amsthm](https://ctan.org/pkg/amsthm): for theorems setup.
+- [epigraph](https://ctan.org/pkg/epigraph): for adding quotes at the beginning of the chapters.
 
 ## Pre-included Github action
 
