@@ -21,5 +21,6 @@ jobs:
       - name: Upload document
         uses: actions/upload-artifact@v2
         with:
+          working_directory: src/
           name: PDF
           path: main.pdf
