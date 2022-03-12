@@ -60,6 +60,7 @@ It is the file [config.tex](https://github.com/Pinzauti/LaTeX-thesis-template/bl
 - [mathtools](https://ctan.org/pkg/mathtools): provides many useful tools for mathematical typesetting.
 - [amssymb](https://ctan.org/pkg/amsfonts?lang=en): provides some mathematical symbols.
 - [amsthm](https://ctan.org/pkg/amsthm?lang=en): for theorems setup.
+- [epigraph](https://ctan.org/pkg/epigraph?lang=en): for adding quotes at the beginning of the chapters.
 
 ## Pre-included Github action
 
