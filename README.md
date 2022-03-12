@@ -17,7 +17,7 @@ pdflatex main-frn.tex
 pdflatex main.tex
 ```
 
-If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these lines](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/FrontBack/Frontespizio.tex#L24) and just compile the file as usual.
+If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these lines](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/FrontBack/Frontespizio.tex#L24) and compile the file as usual.
 
 ## File structure
     .
