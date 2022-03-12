@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you want to use this template, please cite it as below."
+authors:
+- family-names: "Pinzauti"
+  given-names: "Francesco"
+title: "LaTeX thesis template"
+version: 1.0.0
+date-released: 2022-03-12
+url: "https://github.com/Pinzauti/LaTeX-book"
