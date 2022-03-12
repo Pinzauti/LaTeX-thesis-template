@@ -45,8 +45,10 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
     │   |── Bibliography.bib            # Bibliography entries
     |   |── config.tex                  # Configuration (e.g. packages, theorems etc.)
     |   └── main.tex                    # Main file, it is what you have to compile
-    |── README.md
-    └── .gitignore
+    |── .gitignore
+    |── CITATION.cff
+    |── LICENSE
+    └── README.md
  
 ## Configuration file
 It is the file [config.tex](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/config.tex). It contains some pre-included packages and defines the ```\abs``` command for the absolute value. It also defines the ambients ```Postulate```, ```Definition``` and ```Theorem```. More info [here](http://www.ams.org/arc/tex/amscls/amsthdoc.pdf).
