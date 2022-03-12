@@ -43,10 +43,10 @@ pdflatex main.tex
     
 ## Pre-included packages
 
-- classicthesis
-- frontespizio
-- biblatex
-- graphicx
+- [classicthesis](https://ctan.org/pkg/classicthesis): Main package used for the thesis style.
+- [frontespizio](https://ctan.org/pkg/frontespizio): Generates the first page of the document.
+- [biblatex](https://ctan.org/pkg/biblatex): Bibliography
+- [graphicx](https://ctan.org/pkg/graphicx): For handling images.
 - amsmath
 - amssymb
 - amsthm
