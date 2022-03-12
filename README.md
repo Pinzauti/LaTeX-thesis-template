@@ -55,7 +55,7 @@ It is the file [config.tex](https://github.com/Pinzauti/LaTeX-thesis-template/bl
 
 - [classicthesis](https://ctan.org/pkg/classicthesis): main package used for the thesis style.
 - [frontespizio](https://ctan.org/pkg/frontespizio): generates the first page of the document.
-- [biblatex](https://ctan.org/pkg/biblatex): bibliography
+- [biblatex](https://ctan.org/pkg/biblatex): bibliography.
 - [graphicx](https://ctan.org/pkg/graphicx): for handling images.
 - [mathtools](https://ctan.org/pkg/mathtools): provides many useful tools for mathematical typesetting.
 - [amssymb](https://ctan.org/pkg/amsfonts?lang=en): provides some mathematical symbols.
