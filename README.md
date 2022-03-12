@@ -9,13 +9,15 @@ In order to compile the project you have to:
 - Compile the file ```main-frn.tex```.
 - Compile (yes, again) the file ```main.tex```.
 
-If you use pdflatex this translates to:
+If you use pdflatex this is:
 ```
 cd src/
 pdflatex main.tex
 pdflatex main-frn.tex
 pdflatex main.tex
 ```
+
+If you use Overleaf just uncomment [those lines](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/FrontBack/Frontespizio.tex#L24) and just compile the file as usual.
 
 ## File structure
     .
