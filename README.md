@@ -1,3 +1,4 @@
+[![.github/workflows/latex.yml](https://github.com/Pinzauti/LaTeX-thesis-template/actions/workflows/latex.yml/badge.svg)](https://github.com/Pinzauti/LaTeX-thesis-template/actions/workflows/latex.yml)
 # LaTeX Thesis Template
 Clean LaTeX template for thesis or large writeups.
 
@@ -18,6 +19,9 @@ pdflatex main.tex
 
 ## File structure
     .
+    ├── .github                               
+        ├── workflows
+            ├── latex.yml               # Action to compile and upload the PDF document to the workflow tab.  
     ├── src                             # Where the actual template is               
     │   ├── Chapters                    # Chapters of the document
     |       ├── AppendixA               
