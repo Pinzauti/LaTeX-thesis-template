@@ -56,3 +56,7 @@ pdflatex main.tex
 - amssymb
 - amsthm
 - mathtools
+
+## Github action
+
+Used in order to compile the document and to upload it to the worflow tab. More info [here](https://github.com/xu-cheng/latex-action/)
