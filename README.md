@@ -37,7 +37,7 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
     |       └── ...
     │   ├── FrontBack                   # Material of the frontpage or the backpage
     |       ├── Abstract.tex            # Abstract of the document
-    |       ├── Bibliography.tex        # You can change the bibliography style here
+    |       ├── Bibliography.tex        # Add the bibliogrpahy to the document, customizable
     |       ├── Conclusions.tex         # Conclusions of the document
     |       ├── Frontespizio.tex        # Frontpage of the document
     |       ├── Quote.tex               # An initial quote 
