@@ -1,0 +1,20 @@
+ \PassOptionsToPackage{style=arsclassica, eulerchapternumbers, dottedtoc, pdfspacing, floatperchapter, beramono, listings}{classicthesis} 
+
+\PassOptionsToPackage{backend=biber, style=alphabetic}{biblatex}
+\usepackage{biblatex}
+\addbibresource{Bibliography.bib}
+
+\usepackage{graphicx} 
+    \graphicspath{{Images/}}
+\usepackage{braket, amsmath, amssymb, amsthm, mathtools}
+
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+
+\theoremstyle{definition}
+\newtheorem{postulate}{Postulate}
+\newtheorem{defn}{Definition}[chapter]
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[chapter]
+
+\usepackage{frontespizio, classicthesis}
