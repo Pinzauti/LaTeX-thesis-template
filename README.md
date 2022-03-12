@@ -27,12 +27,12 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
     ├── src                             # Where the actual template is               
     │   ├── Chapters                    # Chapters of the document
     |       ├── AppendixA               
-    |           ├── index.tex           # Entrypoint of Appendix A, here you should link your sections
-    |           ├── section1.tex        # First section of the appendix
+    |           ├── Index.tex           # Entrypoint of Appendix A, here you should link your sections
+    |           ├── Section1.tex        # First section of the appendix
     |           └── ...
     |       ├── Chapter1
-    |           ├── index.tex           # Entrypoint of Chapter 1, here you should link your sections
-    |           ├── section1.tex        # First section of the chapter
+    |           ├── Index.tex           # Entrypoint of Chapter 1, here you should link your sections
+    |           ├── Section1.tex        # First section of the chapter
     |           └── ...
     |       └── ...
     │   ├── FrontBack                   # Material of the frontpage or the backpage
