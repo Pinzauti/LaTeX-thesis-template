@@ -3,20 +3,24 @@
   \usepackage[style=arsclassica, beramono]{classicthesis}
   }
 
-  \Margini{1cm}{1.5cm}{1cm}{1cm}
+  \Margini{1cm}{1.5cm}{1cm}{1cm}  % Margins
 
-  %\Logo{}
-  \Istituzione{Università}
-  \Divisione{Facoltà}
-  \Scuola{}
+  %\Logo{} Uncomment if you want to add an image
+  \Istituzione{Your University}
+  \Divisione{Your faculty}
+  \Scuola{Your school}
   \Titoletto{Titoletto}
-  \Titolo{Lorem ipsum dolor sit amet}
-  \Sottotitolo{Sottotitolo}
+  \Titolo{Your title}
+  \Sottotitolo{Your subtitle}
   \NCandidato{\textsc{author}}
-  \Candidato{Dott. Francesco Pinzauti}
+  \Candidato{Francesco Pinzauti}
   \NRelatore{\textsc{advisor}}{}
-  \Relatore{Relatore}
+  \Relatore{Jhon Doe}
   \NCorrelatore{}{\textsc{co-advisors}}
-  \Correlatore{Correlatore}
-  \Piede{Anno accademico}
+  \Correlatore{Jhon Doe}
+  \Piede{Academic year}
 \end{frontespizio}
+
+% If you plan to use Overleaf uncomment the following lines:
+% \IfFileExists{\jobname-frn.pdf}{}{%
+%\immediate\write18{pdflatex \jobname-frn}}
