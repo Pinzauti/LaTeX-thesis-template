@@ -22,19 +22,19 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
 ## File structure
     .
     ├── .github                               
-        ├── workflows
-            ├── latex.yml               # Action to compile and upload the PDF document to the workflow tab.  
+    |   ├── workflows
+    |       ├── latex.yml               # Action to compile and upload the PDF document to the workflow tab.  
     ├── src                             # Where the actual template is               
     │   ├── Chapters                    # Chapters of the document
     |       ├── AppendixA               
     |           ├── index.tex           # Entrypoint of Appendix A, here you should link your sections
-                ├── section1.tex        # First section of the appendix
+    |           ├── section1.tex        # First section of the appendix
     |           └── ...
     |       ├── Chapter1
     |           ├── index.tex           # Entrypoint of Chapter 1, here you should link your sections
-                ├── section1.tex        # First section of the chapter
+    |           ├── section1.tex        # First section of the chapter
     |           └── ...
-            └── ...
+    |       └── ...
     │   ├── FrontBack                   # Material of the frontpage or the backpage
     |       ├── Abstract.tex            # Abstract of the document
     |       ├── Bibliography.tex        # You can change the bibliography style here
@@ -42,6 +42,8 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
     |       ├── Frontespizio.tex        # Frontpage of the document
     |       ├── Quote.tex               # An initial quote 
     |       └── Titleback.tex           # Page behind the frontpage
+    |   ├── Images                      # Where images are located
+    |       └── logo.png                # Logo in the frontpage, replace with your logo
     │   |── Bibliography.bib            # Bibliography entries
     |   |── config.tex                  # Configuration (e.g. packages, theorems etc.)
     |   └── main.tex                    # Main file, it is what you have to compile
