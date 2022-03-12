@@ -42,7 +42,7 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
     |       ├── Frontespizio.tex        # Frontpage of the document
     |       ├── Quote.tex               # An initial quote 
     |       └── Titleback.tex           # Page behind the frontpage
-    │   |── Bibliography.bib            # Bibliography entries.
+    │   |── Bibliography.bib            # Bibliography entries
     |   |── config.tex                  # Configuration (e.g. packages, theorems etc.)
     |   └── main.tex                    # Main file, it is what you have to compile
     |── README.md
