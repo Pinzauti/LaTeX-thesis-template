@@ -28,6 +28,7 @@ pdflatex main.tex
     |           ├── index.tex           # Entrypoint of Chapter 1, here you should link your sections
                 ├── section1.tex        # First section of the chapter
     |           └── ...
+            └── ...
     │   ├── FrontBack                   # Material of the frontpage or the backpage
     |       ├── Abstract.tex            # Abstract of the document
     |       ├── Bibliography.tex        # Add the bilbiography to the document
