@@ -1,0 +1,19 @@
+name: Build LaTeX document
+on: [push]
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Set up Git repository
+        uses: actions/checkout@v2  
+        
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          pre_compile: "tlmgr update --self && tlmgr update --all"
+          args: "-g -pdf -file-line-error -halt-on-error -interaction=nonstopmode"
+          working_directory: src/
+          root_file: |
+            main.tex
+            main-frn.tex
+            main.tex
