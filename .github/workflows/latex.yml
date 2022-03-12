@@ -17,8 +17,9 @@ jobs:
             main.tex
             main-frn.tex
             main.tex
+            
       - name: Upload document
-      - uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
           name: PDF
           path: main.pdf
