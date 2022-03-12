@@ -1,6 +1,6 @@
 [![.github/workflows/latex.yml](https://github.com/Pinzauti/LaTeX-thesis-template/actions/workflows/latex.yml/badge.svg)](https://github.com/Pinzauti/LaTeX-thesis-template/actions/workflows/latex.yml)
 # LaTeX Thesis Template
-Clean LaTeX template for thesis or large writeups.
+Clean LaTeX template for thesis or large writeups. You can see [here](https://github.com/Pinzauti/LaTeX-thesis-template/releases/download/v1.0/template.pdf) the generated PDF.
 
 ## Get started
 In order to compile the project you have to:
