@@ -1,5 +1,5 @@
 # LaTeX Thesis Template
-LaTeX template for thesis or large writeups.
+Clean LaTeX template for thesis or large writeups.
 
 ## Get started
 In order to compile the project you have to:
@@ -18,27 +18,26 @@ pdflatex main.tex
 
 ## File structure
     .
-    ├── src                   
-    │   ├── Chapters   
-    |       ├── AppendixA
-    |           ├── index.tex
+    ├── src                             # Where the actual template is               
+    │   ├── Chapters                    # Chapters of the document
+    |       ├── AppendixA 
+    |           ├── index.tex           # Entrypoint of Appendix A, here you should link your sections
+                ├── section1.tex        # First section of the appendix
     |           └── ...
     |       ├── Chapter1
-    |           ├── index.tex
-    |           └── ...
-    |       └── Chapter2
-    |           ├── index.tex
+    |           ├── index.tex           # Entrypoint of Chapter 1, here you should link your sections
+                ├── section1.tex        # First section of the chapter
     |           └── ...
     │   ├── FrontBack   
-    |       ├── Abstract.tex
-    |       ├── Bibliography.tex
-    |       ├── Conclusion.tex
-    |       ├── Frontespizio.tex
-    |       ├── Quote.tex
-    |       └── Titleback.tex
-    │   |── Bibliography.bib
-    |   |── config.tex
-    |   └── main.tex
+    |       ├── Abstract.tex            # Abstract of the document
+    |       ├── Bibliography.tex        # Add the bilbiography to the document
+    |       ├── Conclusions.tex         # Conclusions of the document
+    |       ├── Frontespizio.tex        # Frontpage of the document
+    |       ├── Quote.tex               # An initial quote 
+    |       └── Titleback.tex           # Page behind the frontpage
+    │   |── Bibliography.bib            # Bibliography entries.
+    |   |── config.tex                  # Configuration (e.g. packages, theorems etc.)
+    |   └── main.tex                    # Main file, it is what you have to compile
     |── README.md
     └── .gitignore
     
