@@ -64,4 +64,4 @@ It is the file [config.tex](https://github.com/Pinzauti/LaTeX-thesis-template/bl
 
 ## Pre-included Github action
 
-Used in order to compile the document and to upload it to the worflow tab. More info [here](https://github.com/xu-cheng/latex-action/).
+Used in order to compile the document and to upload it to the [workflow tab](https://github.com/Pinzauti/LaTeX-thesis-template/actions/workflows/latex.yml). More info [here](https://github.com/xu-cheng/latex-action/).
