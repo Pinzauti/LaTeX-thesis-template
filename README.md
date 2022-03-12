@@ -16,8 +16,6 @@ pdflatex main-frn.tex
 pdflatex main.tex
 ```
 
-
-
 ## File structure
     .
     ├── src                   
@@ -43,3 +41,14 @@ pdflatex main.tex
     |   └── main.tex
     |── README.md
     └── .gitignore
+    
+## Pre-included packages
+
+- classicthesis
+- frontespizio
+- biblatex
+- graphicx
+- amsmath
+- amssymb
+- amsthm
+- mathtools
