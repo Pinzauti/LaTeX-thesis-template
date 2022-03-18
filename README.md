@@ -1,4 +1,6 @@
 [![.github/workflows/latex.yml](https://github.com/Pinzauti/LaTeX-thesis-template/actions/workflows/latex.yml/badge.svg)](https://github.com/Pinzauti/LaTeX-thesis-template/actions/workflows/latex.yml)
+![MIT](https://img.shields.io/badge/license-MIT-brightgreen) 
+[![Latest release](https://badgen.net/github/release/Pinzauti/LaTeX-thesis-template)](https://github.com/Pinzauti/LaTeX-thesis-template/releases/tag/v0.5)
 # LaTeX Thesis Template
 Clean LaTeX template for thesis or large writeups. You can see [here](https://github.com/Pinzauti/LaTeX-thesis-template/releases/download/v0.5/template.pdf) the generated PDF.
 
