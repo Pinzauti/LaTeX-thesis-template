@@ -10,7 +10,6 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          pre_compile: "tlmgr update --self && tlmgr update --all"
           args: "-g -pdf -file-line-error -halt-on-error -interaction=nonstopmode"
           working_directory: src/
           root_file: |
