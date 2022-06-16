@@ -5,19 +5,13 @@
 Clean LaTeX template for thesis or large writeups. You can see [here](https://github.com/Pinzauti/LaTeX-thesis-template/releases/download/v0.5/template.pdf) the generated PDF.
 
 ## Get started
-In order to compile the project you have to:
-- Navigate to the ```src``` folder.
-- Compile the file ```main.tex```.
-- Compile the file ```main-frn.tex```.
-- Compile (yes, again) the file ```main.tex```.
+In order to compile the project you just need to navigate to the ```src``` folder and execute the command:
 
-If you use pdflatex this is:
 ```
-cd src/
-pdflatex main.tex
-pdflatex main-frn.tex
-pdflatex main.tex
+make
 ```
+Note: if you want to add source code to your document and therefore use the [minted package](https://ctan.org/pkg/minted?lang=en), you need to make sure to have [Python](https://www.python.org/) and the [pygments package](https://pygments.org/) installed in your system. You can take a look at the [documentation](http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf) to have a better insight.
+Note that this setup is not mandatory for the template, if you don't need to write code in your document just remove the package from the ```config.tex``` file (and of course the example code in the first chapter).
 
 If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these lines](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/FrontBack/Frontespizio.tex#L24) and compile the file as usual.
 
@@ -48,7 +42,8 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
     |       └── logo.png                # Logo in the frontpage, replace with your logo
     │   |── Bibliography.bib            # Bibliography entries
     |   |── config.tex                  # Configuration (e.g. packages, theorems etc.)
-    |   └── main.tex                    # Main file, it is what you have to compile
+    |   |── main.tex                    # Main file, it is what you have to compile
+    |   └── Makefile                    # Contains the commands to compile the document.
     |── .gitignore
     |── CITATION.cff
     |── LICENSE
@@ -62,11 +57,12 @@ It is the file [config.tex](https://github.com/Pinzauti/LaTeX-thesis-template/bl
 - [classicthesis](https://ctan.org/pkg/classicthesis): main package used for the thesis style.
 - [frontespizio](https://ctan.org/pkg/frontespizio): generates the first page of the document.
 - [biblatex](https://ctan.org/pkg/biblatex): bibliography.
-- [graphicx](https://ctan.org/pkg/graphicx): for handling images.
+- [graphicx](https://ctan.org/pkg/graphicx): handles images.
 - [mathtools](https://ctan.org/pkg/mathtools): provides many useful tools for mathematical typesetting.
 - [amssymb](https://ctan.org/pkg/amsfonts): provides some mathematical symbols.
-- [amsthm](https://ctan.org/pkg/amsthm): for theorems setup.
-- [epigraph](https://ctan.org/pkg/epigraph): for adding quotes at the beginning of the chapters.
+- [amsthm](https://ctan.org/pkg/amsthm): handles theorems setup.
+- [minted](https://ctan.org/pkg/minted): to add source code in a nice way.
+- [epigraph](https://ctan.org/pkg/epigraph): to add quotes.
 
 ## Pre-included Github action
 
