@@ -10,9 +10,14 @@ In order to compile the project you just need to navigate to the ```src``` folde
 ```
 make
 ```
-Note: if you want to add source code to your document and therefore use the [minted package](https://ctan.org/pkg/minted?lang=en), you need to make sure to have [Python](https://www.python.org/) and the [pygments package](https://pygments.org/) installed in your system. You can take a look at the [documentation](http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf) to have a better insight.
-Note that this setup is not mandatory for the template, if you don't need to write code in your document just remove the package from the ```config.tex``` file (and of course the example code in the first chapter).
+#### Minted
+If you want to add source code to your document and therefore use the [minted package](https://ctan.org/pkg/minted?lang=en), you need to make sure to have [Python](https://www.python.org/) and the [pygments package](https://pygments.org/) installed in your system. You can take a look at the [documentation](http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf) to have a better insight.
 
+If you use an editor to compile the document (e.g. TeXstudio, Visual Studio etc.) you should add the flag ```-shell-escape``` when compiling the file.
+
+Note that this setup is not mandatory for the template, if you don't need to write code in your document just remove the minted package from the ```config.tex``` file (and of course the example code in the first chapter).
+
+#### Overleaf
 If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these lines](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/FrontBack/Frontespizio.tex#L24) and compile the file as usual.
 
 ## File structure
