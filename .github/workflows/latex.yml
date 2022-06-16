@@ -10,7 +10,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          args: "-g -pdf -file-line-error -halt-on-error -interaction=nonstopmode"
+          args: "-g -pdf -file-line-error -halt-on-error -interaction=nonstopmode -shell-escape"
           working_directory: src/
           root_file: |
             main.tex
