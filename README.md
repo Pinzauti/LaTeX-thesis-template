@@ -57,7 +57,7 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
 ## Configuration file
 It is the file [config.tex](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/config.tex). It contains some pre-included packages and defines the ```\abs``` command for the absolute value. It also defines the ambients ```Postulate```, ```Definition``` and ```Theorem```. More info [here](http://www.ams.org/arc/tex/amscls/amsthdoc.pdf).
 
-### Pre-included packages
+### Included packages
 
 - [classicthesis](https://ctan.org/pkg/classicthesis): main package used for the thesis style.
 - [frontespizio](https://ctan.org/pkg/frontespizio): generates the first page of the document.
@@ -69,6 +69,6 @@ It is the file [config.tex](https://github.com/Pinzauti/LaTeX-thesis-template/bl
 - [minted](https://ctan.org/pkg/minted): to add source code in a nice way.
 - [epigraph](https://ctan.org/pkg/epigraph): to add quotes.
 
-## Pre-included Github action
+## Included Github action
 
 Used in order to compile the document and to upload it to the [workflow tab](https://github.com/Pinzauti/LaTeX-thesis-template/actions/workflows/latex.yml). More info [here](https://github.com/xu-cheng/latex-action/).
