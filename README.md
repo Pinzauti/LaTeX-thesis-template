@@ -2,20 +2,31 @@
 ![MIT](https://img.shields.io/badge/license-MIT-brightgreen) 
 [![Latest release](https://badgen.net/github/release/Pinzauti/LaTeX-thesis-template)](https://github.com/Pinzauti/LaTeX-thesis-template/releases/tag/v1.0)
 # LaTeX Thesis Template
-Clean LaTeX template for thesis or large writeups. You can see [here](https://github.com/Pinzauti/LaTeX-thesis-template/releases/download/v1.0/template.pdf) the generated PDF.
+Clean LaTeX template for a thesis or a large writeup. You can see [here](https://github.com/Pinzauti/LaTeX-thesis-template/releases/download/v1.0/template.pdf) the generated PDF.
 
-## Get started
-In order to compile the project you just need to navigate to the ```src``` folder and execute the command:
+## Requirements
+You need a working LaTeX enviroment installed in your system.
+#### Minted
+If you want to add source code to your document and therefore use the [minted package](https://ctan.org/pkg/minted?lang=en), you need to make sure to have [Python](https://www.python.org/) and the [pygments package](https://pygments.org/) installed in your system. You can take a look at the [documentation](http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf) to have a better insight.
+
+If you use an editor to compile the template (e.g. TeXstudio, Visual Studio etc.) you should add the flag ```-shell-escape``` when compiling.
+
+Note that this setup is default but not mandatory for the template, if you don't need to write code in your document just remove the minted package from the ```config.tex``` file (and of course the example code in the first chapter).
+
+## Getting started
+
+In order to compile the template you just need to navigate to the ```src``` folder and execute the command:
 
 ```
 make
 ```
-#### Minted
-If you want to add source code to your document and therefore use the [minted package](https://ctan.org/pkg/minted?lang=en), you need to make sure to have [Python](https://www.python.org/) and the [pygments package](https://pygments.org/) installed in your system. You can take a look at the [documentation](http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf) to have a better insight.
 
-If you use an editor to compile the document (e.g. TeXstudio, Visual Studio etc.) you should add the flag ```-shell-escape``` when compiling the file.
+If you want to manually compile the template you have to do the following:
+- Compile the file ```main.tex```.
+- Compile the file ```main-frn.tex```.
+- Compile (yes, again) the file ```main.tex```.
 
-Note that this setup is not mandatory for the template, if you don't need to write code in your document just remove the minted package from the ```config.tex``` file (and of course the example code in the first chapter).
+We are using `pdflatex` but you can use wheter you prefer.
 
 #### Overleaf
 If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these lines](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/FrontBack/Frontespizio.tex#L24) and compile the file as usual.
@@ -38,7 +49,7 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
     |       └── ...
     │   ├── FrontBack                   # Material of the frontpage or the backpage
     |       ├── Abstract.tex            # Abstract of the document
-    |       ├── Bibliography.tex        # Add the bibliogrpahy to the document, customizable
+    |       ├── Bibliography.tex        # Add the bibliography to the document, customizable
     |       ├── Conclusions.tex         # Conclusions of the document
     |       ├── Frontespizio.tex        # Frontpage of the document
     |       ├── Quote.tex               # An initial quote 
