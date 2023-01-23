@@ -26,7 +26,7 @@ If you want to manually compile the template you have to do the following:
 - Compile the file ```main-frn.tex```.
 - Compile (yes, again) the file ```main.tex```.
 
-We are using `pdflatex` but you can use wheter you prefer.
+We use `pdflatex` but you can use whatever you prefer.
 
 #### Overleaf
 If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these lines](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/FrontBack/Frontespizio.tex#L24) and compile the file as usual.
