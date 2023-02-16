@@ -10,12 +10,9 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          args: "-g -pdf -file-line-error -halt-on-error -interaction=nonstopmode -shell-escape"
+          args: "-g -pdf -file-line-error -halt-on-error -interaction=nonstopmode"
           working_directory: src/
-          root_file: |
-            main.tex
-            main-frn.tex
-            main.tex
+          root_file: main.tex
             
       - name: Upload document
         uses: actions/upload-artifact@v2
