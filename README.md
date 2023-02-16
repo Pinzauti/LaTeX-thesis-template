@@ -9,8 +9,6 @@ You need a working LaTeX enviroment installed in your system.
 #### Minted
 If you want to add source code to your document and therefore use the [minted package](https://ctan.org/pkg/minted?lang=en), you need to make sure to have [Python](https://www.python.org/) and the [pygments package](https://pygments.org/) installed in your system. You can take a look at the [documentation](http://tug.ctan.org/macros/latex/contrib/minted/minted.pdf) to have a better insight.
 
-If you use an editor to compile the template (e.g. TeXstudio, Visual Studio etc.) you should add the flag ```-shell-escape``` when compiling.
-
 Note that this setup is default but not mandatory for the template, if you don't need to write code in your document just remove the minted package from the ```config.tex``` file (and of course the example code in the first chapter).
 
 ## Getting started
@@ -18,18 +16,11 @@ Note that this setup is default but not mandatory for the template, if you don't
 In order to compile the template you just need to navigate to the ```src``` folder and execute the command:
 
 ```
-make
+latexmk
 ```
 
-If you want to manually compile the template you have to do the following:
-- Compile the file ```main.tex```.
-- Compile the file ```main-frn.tex```.
-- Compile (yes, again) the file ```main.tex```.
-
-We use `pdflatex` but you can use whatever you prefer.
-
-#### Overleaf
-If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these lines](https://github.com/Pinzauti/LaTeX-thesis-template/blob/main/src/FrontBack/Frontespizio.tex#L24) and compile the file as usual.
+### Editors
+If you use [Overleaf](https://www.overleaf.com/project), [Visual Studio Code](https://code.visualstudio.com/) or any other editor just compile everything as usual.
 
 ## File structure
     .
@@ -59,7 +50,7 @@ If you use [Overleaf](https://www.overleaf.com/project) just uncomment [these li
     │   |── Bibliography.bib            # Bibliography entries
     |   |── config.tex                  # Configuration (e.g. packages, theorems etc.)
     |   |── main.tex                    # Main file, it is what you have to compile
-    |   └── Makefile                    # Contains the commands to compile the document.
+    |   └── .latexmkrc                  # Contains the commands to compile the document.
     |── .gitignore
     |── CITATION.cff
     |── LICENSE
