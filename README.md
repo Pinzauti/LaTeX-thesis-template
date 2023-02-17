@@ -65,6 +65,7 @@ It is the file [config.tex](https://github.com/Pinzauti/LaTeX-thesis-template/bl
 - [frontespizio](https://ctan.org/pkg/frontespizio): generates the first page of the document.
 - [biblatex](https://ctan.org/pkg/biblatex): bibliography.
 - [graphicx](https://ctan.org/pkg/graphicx): handles images.
+- [fontenc](https://ctan.org/pkg/fontenc): handles fonts.
 - [mathtools](https://ctan.org/pkg/mathtools): provides many useful tools for mathematical typesetting.
 - [amssymb](https://ctan.org/pkg/amsfonts): provides some mathematical symbols.
 - [amsthm](https://ctan.org/pkg/amsthm): handles theorems setup.

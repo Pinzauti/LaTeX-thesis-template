@@ -29,7 +29,6 @@ job = q.execute(circuit, simulator, shots=1000)
 # Return the histogram data of the results of the experiment.
 return job.result().get_counts(circuit)
 
-if __name__ == "__main__":
 print(f"Total count: {single_qubit_measure(1, 1)}")
 \end{minted}
 This is some maths:
