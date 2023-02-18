@@ -26,7 +26,7 @@ If you use [Overleaf](https://www.overleaf.com/project), [Visual Studio Code](ht
     .
     ├── .github                               
     |   ├── workflows
-    |       ├── latex.yml               # Action to compile and upload the PDF document to the workflow tab.  
+    |       ├── latex.yml               # Action to compile and upload the PDF document to the workflow tab  
     ├── src                             # Where the actual template is               
     │   ├── Chapters                    # Chapters of the document
     |       ├── AppendixA               
@@ -50,7 +50,7 @@ If you use [Overleaf](https://www.overleaf.com/project), [Visual Studio Code](ht
     │   |── Bibliography.bib            # Bibliography entries
     |   |── config.tex                  # Configuration (e.g. packages, theorems etc.)
     |   |── main.tex                    # Main file, it is what you have to compile
-    |   └── .latexmkrc                  # Contains the commands to compile the document.
+    |   └── .latexmkrc                  # Contains the commands to compile the document
     |── .gitignore
     |── CITATION.cff
     |── LICENSE
