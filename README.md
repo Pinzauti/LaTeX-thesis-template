@@ -2,7 +2,7 @@
 ![MIT](https://img.shields.io/badge/license-MIT-brightgreen) 
 [![Latest release](https://badgen.net/github/release/Pinzauti/LaTeX-thesis-template)](https://github.com/Pinzauti/LaTeX-thesis-template/releases/tag/v1.1)
 # LaTeX Thesis Template
-Clean LaTeX template for a thesis or a large writeup. You can see [here](https://github.com/Pinzauti/LaTeX-thesis-template/releases/download/v1.1/template.pdf) the generated PDF.
+Clean LaTeX template for a thesis or a large writeup. You can see [here](https://github.com/Pinzauti/LaTeX-thesis-template/releases/download/v1.2/template.pdf) the generated PDF.
 
 ## Requirements
 You need a working LaTeX enviroment installed in your system.

@@ -8,11 +8,11 @@ jobs:
         uses: actions/checkout@v2  
         
       - name: Compile LaTeX document
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/texlive-action/full@v1
         with:
-          args: "-g -pdf -file-line-error -halt-on-error -interaction=nonstopmode"
-          working_directory: src/
-          root_file: main.tex
+          run: |
+            cd src
+            latexmk
             
       - name: Upload document
         uses: actions/upload-artifact@v2

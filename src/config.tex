@@ -14,7 +14,16 @@
 
 \usepackage{epigraph} % If you don't want to add quotes at the beginning of the chapters, just remove this line.
 
-\usepackage{minted} % If you don't need to write any code, just remove this line.
+% Conditional to check if on Overleaf. 
+\newif\ifoverleaf
+\IfFileExists{output.log}{\overleaftrue}{\overleaffalse}
+
+% If you don't need to write any code, just remove these lines.
+\ifoverleaf
+  \usepackage[outputdir=../]{minted}
+\else
+  \usepackage{minted}
+\fi
 
 \DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
 
